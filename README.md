@@ -3,6 +3,6 @@
 
 [LidiaParral en github](https://github.com/LidiaParral)
 
-Splash | Login | Pantalla Principal
+Splash | Sign Up | Pantalla Principal
 ------ | ----- | ------------------
-![](img/Splash.png) | ![](img/Login.png) | ![](img/Main.png)
+![](img/Splash.png) | ![](img/SignUp.png) | ![](img/Main.png)
