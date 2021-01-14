@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OBMain">
+
+
+
+    <LinearLayout
+        android:id="@+id/llMain"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        app:layout_constraintHorizontal_weight="2"
+        android:padding="@dimen/dimension"
+        tools:ignore="MissingConstraints"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/tvNombreUsu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="48dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/tv_nom"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <ImageView
+            android:id="@+id/imgFoto"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/avatar"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMain2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimension"
+        app:layout_constraintTop_toBottomOf="@id/llMain"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="198dp"
+            android:layout_height="95dp"
+            android:layout_weight="1"
+            android:text="@string/tv_desc"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/btnEditProfile"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:text="@string/btn_edit"
+            android:background="@drawable/shape"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llMenu"
+        android:padding="@dimen/dimension"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_marginTop="24sp"
+        app:layout_constraintTop_toBottomOf="@id/llMain2">
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/tv_loc"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvNewCastle"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/tv_new_castle"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvAustralia"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="@string/tv_australia"
+            android:textSize="12sp"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llMain3"
+        android:layout_width="226dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimension"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/llMenu"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tvBooks"
+            android:layout_width="4dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="@string/tv_books"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/tvReviews"
+            android:layout_width="13dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:text="@string/tv_reviews"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

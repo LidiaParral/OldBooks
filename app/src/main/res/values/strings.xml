@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">OldBooks</string>
+    <string name="oldbooks">OldBooks</string>
+    <string name="tv_signup">Sign Up</string>
+    <string name="loginIn">Stay Logged In</string>
+    <string name="btn_login">Sign In</string>
+    <string name="tv_fpassword">Forget Password</string>
+    <string name="tv_nom">Will Newman</string>
+    <string name="tv_desc">Constantly travelling and keeping up to date with business related books</string>
+    <string name="tv_loc">Location-arrow</string>
+    <string name="tv_new_castle">NewCastle</string>
+    <string name="tv_australia">Australia</string>
+    <string name="btn_edit">Edit Profile</string>
+    <string name="tv_books">21 Books</string>
+    <string name="tv_reviews">5 Reviews</string>
+</resources>
